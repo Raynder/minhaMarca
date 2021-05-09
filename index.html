@@ -14,21 +14,21 @@
             width: 100%;
             height: 100%;
         }
-        #fundo img {
+        .pag1 #fundo img {
             height: 100vh;
             width: 100%;
             left: 0;
             position: absolute;
         }
 
-        #fundo {
+        .pag1 #fundo {
             position: relative; /* posição fixa para que a possível rolagem da tela não revele espaços em branco */
             width: 100%;
             height: 100%;
         }
 
         .imglogo {
-            width: 70px;
+            width: 100px;
         }
 
         .corpo1{
@@ -40,6 +40,7 @@
         }
 
         .bloco{
+            top: 30px;
             float: left;
         }
         .bloco img{
@@ -53,14 +54,6 @@
             top: 210px;
         }
 
-        .mao {
-            height: 100%;
-            position: relative;
-            transform: translateY(-50%);
-        }
-        .mao img{
-            width: 100%;
-        }
         .corpo2 {
             top: 15vh;
             position: absolute;
@@ -72,14 +65,32 @@
         }
 
         @media (max-width: 980px) {
+
             .txt3{
                 top: 310px;
             }
             .txt4{
                 top: 360px;
             }
+            .imglogo {
+                width: 100px;
+            }
         }
 
+
+        .pag2 #fundo img {
+            height: 100vh;
+            width: 100%;
+            left: 0;
+            position: absolute;
+        }
+
+        .pag2 #fundo {
+            position: relative; /* posição fixa para que a possível rolagem da tela não revele espaços em branco */
+            width: 100%;
+            height: 100%;
+        }
+    
     </style>
 
     <script>
@@ -141,11 +152,6 @@
 
                         </div>
 
-                           
-                        <div class="mao">
-                            <img src="Pag 01/maoCaixa.png" style="" alt="" class="sobrepor">
-                        </div>
-
                         <div id="corpo2" class="corpo2">
 
                             <section class="col-lg-6 col-sm-12 col-md-12 bloco">
@@ -174,6 +180,12 @@
                 
                     </div>
 
+                    <div class="pag2" id="pag2">
+
+                        <div id="fundo">
+                            <img src="Pag 02/fundo.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
