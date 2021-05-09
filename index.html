@@ -28,7 +28,14 @@
         }
 
         .imglogo {
-            width: 100px;
+            width: 200px;
+        }
+
+        .campotxt{
+            margin-top: 70px;
+        }
+        .logo{
+            padding-top: 70px;
         }
 
         .corpo1{
@@ -64,16 +71,6 @@
             margin-top: 50px;
         }
 
-        .campotxt{
-            height: 12%;
-            top: 120px;
-            position: relative;
-        }
-        .campotxt img{
-            top: 20%;
-            transform: translateY(-50%);
-        }
-
         .mao {
             height: 100%;
             position: relative;
@@ -83,6 +80,17 @@
             width: 100%;
         }
 
+        @media (max-width:770px){
+
+            .bloco{
+                top: 190px;
+            }
+            
+            .imglogo {
+                width: 200px;
+            }
+        }
+
         @media (max-width: 980px) {
 
             .txt3{
@@ -90,9 +98,6 @@
             }
             .txt4{
                 top: 360px;
-            }
-            .imglogo {
-                width: 100px;
             }
             .campotxt img{
                 top: 50%;
@@ -157,52 +162,50 @@
                 <div class="col-lg-12 main">
 
                     <div class="pag1" id="pag1">
+
                         <div id="fundo">
                             <img src="Pag 01/fundo.png" alt="">
                         </div>
                         
-                        <div class="corpo1">
+                        <div class="corpo">
 
                             <div class="logo">
-                                <img class="imglogo sobrepor" style="top:80px" src="Pag 01/logo.png" alt="">
+                                <img class="imglogo sobrepor" src="Pag 01/logo.png" alt="">
                             </div>
                             
                             <div class="campotxt">
                                 <img src="Pag 01/boas_vindas.png" alt="" class="sobrepor">
                             </div>
-
-
-                        </div>
-
-                        <div id="corpo2" class="corpo2">
-
+                            
                             <section class="col-lg-6 col-sm-12 col-md-12 bloco">
-
-                                <div>
-                                    <img src="Pag 01/txt1.png" style="top:140px" alt="" class="txt1 sobrepor">
+    
+                                <div class="campotxt">
+                                    <img src="Pag 01/txt1.png" alt="" class="txt1 sobrepor">
                                 </div>
                                 
-                                <div>
-                                    <img src="Pag 01/txt2.png" style="top:210px" alt="" class="txt2 sobrepor">
+                                <div class="campotxt">
+                                    <img src="Pag 01/txt2.png" alt="" class="txt2 sobrepor">
                                 </div>
-
+    
                             </section>
-
+    
                             <section class="col-lg-6 col-sm-12 col-md-12 bloco">
-                                <div>
+
+                                <div class="campotxt">
                                     <img src="Pag 01/txt3.png" alt="" class="txt3 sobrepor">
                                 </div>
     
-                                <div>
+                                <div class="campotxt">
                                     <img src="Pag 01/txt4.png" alt="" class="txt4 sobrepor">
                                 </div>
-
+    
                             </section>
+
                         </div>
                 
                     </div>
 
-                    <div class="pag2" id="pag2">
+                    <!-- <div class="pag2" id="pag2">
 
                         <div id="fundo">
                             <img src="Pag 02/fundo.png" alt="">
@@ -247,7 +250,7 @@
 
                         </div>
 
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
