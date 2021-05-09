@@ -9,6 +9,7 @@
     <style>
         .main{
             padding: 0;
+            position: absolute;
         }
         body, html {
             width: 100%;
@@ -38,8 +39,9 @@
             padding-top: 70px;
         }
 
-        .corpo1{
+        .corpo{
             height: 100vh;
+            position: relative;
         }
 
         .sobrepor{
@@ -53,17 +55,18 @@
         .bloco img{
             width: 78%;
         }
+        img.circle {
+            position: relative;
+            left: -50%;
+        }
+        .campotxtcircle {
+            position: relative;
+            bottom: -15%;
+        }
 
         .txt3{
-            top: 140px;
         }
         .txt4{
-            top: 210px;
-        }
-
-        .corpo2 {
-            top: 15vh;
-            position: absolute;
         }
     
         .corpo2 div{
@@ -80,7 +83,7 @@
             width: 100%;
         }
 
-        @media (max-width:770px){
+        /* @media (max-width:770px){
 
             .bloco{
                 top: 190px;
@@ -102,7 +105,7 @@
             .campotxt img{
                 top: 50%;
             }
-        }
+        } */
 
 
         .pag2 #fundo img {
@@ -200,6 +203,10 @@
                                 </div>
     
                             </section>
+
+                            <div class="campotxtcircle">
+                                <img src="Pag 01/circulo.png" alt="" class="circle">
+                            </div>
 
                         </div>
                 
