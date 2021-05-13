@@ -237,6 +237,23 @@
         .pag6 .titulo{
             margin-bottom: 50px;
         }
+        .pag6 input {
+            position: absolute;
+            width: 75%;
+            height: 22%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 40px;
+        }
+        .pag6 input.nome{
+            top: 32px;
+        }
+        .pag6 input.telefone{
+            top: 183px;
+        }
+        .pag6 input.email{
+            top: 332px;
+        }
     </style>
 
     <script>
@@ -550,46 +567,50 @@
                         <div id="fundo">
                             <img src="Pag 06/fundo.png" alt="">
                         </div>
-                        
-                        <div class="corpo">
+                        <form action="">
+                            <div class="corpo">
+    
+                                <div class="campotxt titulo">
+                                    <img src="Pag 06/txt1.png" alt="" class="txt1 sobrepor titulo">
+                                </div>
+                                
+                                <section class="col-lg-4 col-sm-12 col-md-12 bloco">
+                                    <div class="preencher">
+                                        <img src="Pag 06/txt2.png" alt="" class="txt2 sobrepor">
+                                        <input type="text" name="nome" class="nome">
+                                    </div>
 
-                            <div class="campotxt titulo">
-                                <img src="Pag 06/txt1.png" alt="" class="txt1 sobrepor titulo">
-                            </div>
-                            
-                            <section class="col-lg-4 col-sm-12 col-md-12 bloco">
-    
-                                <div class="preencher">
-                                    <img src="Pag 06/txt2.png" alt="" class="txt2 sobrepor">
-                                </div>
-    
-                                <div class="preencher">
-                                    <img src="Pag 06/txt3.png" alt="" class="txt2 sobrepor">
-                                </div>
-    
-                                <div class="preencher">
-                                    <img src="Pag 06/txt4.png" alt="" class="txt2 sobrepor">
-                                </div>
-    
-                            </section>
-                            
-                            <section class="col-lg-4 col-sm-12 col-md-12 bloco">
-    
-                                <div class="campotxt">
-                                    <img src="Pag 06/txt5.png" alt="" class="txt3 sobrepor">
-                                </div>
-    
-                            </section>
-                            
-                            <div class="campotxt sub titulo">
-                                <img src="Pag 06/txt6.png" alt="" class="txt6 sobrepor">
-                            </div>
-                            
-                            <div class="">
-                                <img src="Pag 06/txt7.png" alt="" class="txt7 sobrepor">
-                            </div>
+                                    <div class="preencher">
+                                        <img src="Pag 06/txt3.png" alt="" class="txt2 sobrepor">
+                                        <input type="text" name="telefone" class="telefone">
+                                    </div>
+        
+                                    <div class="preencher">
+                                        <img src="Pag 06/txt4.png" alt="" class="txt2 sobrepor">
+                                        <input type="text" name="email" class="email">
+                                    </div>
+        
+                                </section>
+                                
+                                <section class="col-lg-4 col-sm-12 col-md-12 bloco">
 
-                        </div>
+                                    <input type="text" name="msg" class="msg">
+                                    <div class="campotxt">
+                                        <img src="Pag 06/txt5.png" alt="" class="txt3 sobrepor">
+                                    </div>
+        
+                                </section>
+                                
+                                <div class="campotxt sub titulo">
+                                    <img src="Pag 06/txt6.png" alt="" class="txt6 sobrepor">
+                                </div>
+                                
+                                <div class="">
+                                    <img src="Pag 06/txt7.png" alt="" class="txt7 sobrepor">
+                                </div>
+    
+                            </div>
+                        </form>
                 
                     </div>
 
