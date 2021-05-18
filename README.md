@@ -1,4 +1,4 @@
-![Arkadian]()
+![Arkadian](https://github.com/Raynder/minhaMarca/blob/master/developer.jpg)
 
 <h1 align="center">Desenvolvimento de Sistemas</h1>
 <p align="center"> Arkadian é uma agência de tecnologia especializada na criação de sistemas, softwares e websites.</p>
