@@ -1,0 +1,52 @@
+.pag6 .preencher{
+    margin-top: 20px;
+}
+.pag6 .campoimg img{
+    margin-top: 150px;
+}
+.pag6 .titulo{
+    margin-bottom: 50px;
+}
+.pag6 input {
+    position: absolute;
+    width: 75%;
+    height: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+}
+.pag6 input.nome{
+    top: 32px;
+}
+.pag6 input.telefone{
+    top: 183px;
+}
+.pag6 input.email{
+    top: 332px;
+}
+.pag6 input.msg {
+    top: 177px;
+    height: 65%;
+}
+.pag6 textarea {
+    width: 75%;
+    height: 64%;
+    margin-top: 18%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+}
+input[type="image"] {
+    width: 20%;
+    height: 5%;
+    margin-top: 5px;
+    position: relative;
+    left: 37%;
+}
+.sub{
+    margin-top: 80px;
+}
+.pag6 img.seta {
+    margin-top: 40px;
+}

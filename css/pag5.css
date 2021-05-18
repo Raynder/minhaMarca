@@ -1,0 +1,46 @@
+.pag5 .campoimg img{
+    margin-top: 150px;
+}
+.slider img{
+    margin: 50px 0 50px 0;
+    width: 100%;
+}
+.pag5 img.txt2.sobrepor {
+    margin-top: 20px;
+}
+.pag5 img.seta {
+    position: relative;
+    width: 10%;
+    margin-top: 25%;
+    transform: translateY(-100%);
+}
+#items-wrapper{
+    width: 90%;
+}
+#items{
+    display: flex;
+    overflow-x: auto;
+    margin-left: 10%;
+    scroll-snap-type: x mandatory;
+}
+.item{
+    flex: none;
+    scroll-snap-align: start;
+}
+.pag5 img.cora2 {
+    top: 1600px;
+    position: absolute;
+    left: 809px;
+    width: 96px;
+}
+.pag5 img.cora1 {
+    top: -70px;
+    position: absolute;
+    left: 150px;
+}
+.pag5 img.cora3 {
+    top: 778px;
+    position: absolute;
+    left: -60px;
+    width: 150px;
+}

@@ -1,0 +1,37 @@
+.pag4 img.cora1 {
+    top: -1340px;
+    left: -234px;
+    position: relative;
+}
+
+.pag4 img.cora2 {
+    top: -1139px;
+    left: 458px;
+    position: relative;
+}
+
+.pag4 img.cora3 {
+    top: -480px;
+    left: -490px;
+    position: relative;
+}
+
+img.cora4 {
+    position: relative;
+    left: 100px;
+    width: 205px;
+    top: -123px;
+}
+
+.pag4 .bloco img {
+    width: 60%;
+    margin-top: 40px;
+}
+
+.pag4 img.titulo {
+    margin-top: 60px;
+}
+
+.pag3 .corpo {
+    top: 300px;
+}

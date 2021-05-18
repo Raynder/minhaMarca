@@ -4,6 +4,14 @@
         <meta charset="utf-8">
         <title>Alpha MKR</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/pag1.css">
+        <link rel="stylesheet" href="css/pag2.css">
+        <link rel="stylesheet" href="css/pag3.css">
+        <link rel="stylesheet" href="css/pag4.css">
+        <link rel="stylesheet" href="css/pag5.css">
+        <link rel="stylesheet" href="css/pag6.css">
+
+        <script src="js/script.js" type="text/javascript"></script>
     </head>
     
     <style>
@@ -40,6 +48,10 @@
             position: relative;
         }
 
+        .campotxt{
+            opacity: 0;
+        }
+
         .bloco img{
             width: 78%;
         }
@@ -60,272 +72,6 @@
         }
     </style>
 
-    <!-- Stylos Pagina 1 -->
-    <style>
-        .pag1 .imglogo {
-            width: 200px;
-        }
-        .pag1 .logo{
-            padding-top: 70px;
-        }
-        .pag1 img.icone {
-            position: relative;
-            left: -50%;
-            width: 100%;
-            bottom: -100%;
-            transform: translateY(-50%);
-        }
-        .pag1 img.seta {
-            position: relative;
-            width: 8%;
-            bottom: -92%;
-            transform: translateY(-100%);
-        }
-        .pag1 img.triangulo {
-            position: relative;
-            width: 30%;
-            top: 100vh;
-            float: right;
-            transform: translateY(-100%);
-        }
-        .pag1 .bloco{
-            top: 80px;
-            float: left;
-        }
-        .pag1 .campotxt{
-            margin-top: 80px;
-            margin-bottom: 40px;
-            opacity: 0;
-        }
-        @media (min-width:1200px){
-            .pag1 .logo {
-                padding-top: 40px;
-            }
-            .pag1 .imglogo {
-                width: 100px;
-            }
-            .pag1 .campotxt {
-                margin-top: 40px;
-                margin-bottom: 0px;
-            }
-            .pag1 .bloco{
-                top: 20px;
-            }
-            .pag1 img.triangulo {
-                width: 12%;
-            }
-            .pag1 img.seta {
-                width: 4%;
-            }
-        }
-    </style>
-
-    <!-- Stylos Pagina 2 -->
-    <style>
-        .pag2 #fundo img {
-            height: 100vh;
-            width: 100%;
-            left: 0;
-            position: absolute;
-        }
-
-        .pag2 #fundo {
-            position: relative; /* posição fixa para que a possível rolagem da tela não revele espaços em branco */
-            width: 100%;
-            height: 100%;
-        }
-        img.circle {
-            width: 50%;
-            left: -50%;
-            position: relative;
-            transform: translateY(-50%);
-        }
-        .pag2 .bloco{
-            top: 210px;
-            float: left;
-        }
-        .pag2 .campotxt{
-            margin-top: 100px;
-        }
-        @media (min-width:1200px){
-            img.circle {
-                width: 20%;
-            }
-            
-        }
-    </style>
-
-    <!-- Stylos Pagina 3 -->
-    <style>
-        .pag3 .campotxt {
-            margin-top: 100px;
-        }
-
-        .pag3 .campotxtfinal {
-            margin-top: 380px;
-        }
-        
-    </style>
-
-    <!-- Stylos Pagina 4 -->
-    <style>
-        .pag4 img.cora1 {
-            top: -1340px;
-            left: -234px;
-            position: relative;
-        }
-
-        .pag4 img.cora2 {
-            top: -1139px;
-            left: 458px;
-            position: relative;
-        }
-
-        .pag4 img.cora3 {
-            top: -480px;
-            left: -490px;
-            position: relative;
-        }
-
-        img.cora4 {
-            position: relative;
-            left: 100px;
-            width: 205px;
-            top: -123px;
-        }
-
-        .pag4 .bloco img {
-            width: 60%;
-            margin-top: 40px;
-        }
-        
-        .pag4 img.titulo {
-            margin-top: 60px;
-        }
-        
-        .pag3 .corpo {
-            top: 300px;
-        }
-    </style>
-
-    <!-- Stylos Pagina 5 -->
-    <style>
-
-        .pag5 .campotxt img{
-            margin-top: 150px;
-        }
-        .slides img{
-            width: 70%;
-            margin: 50px 0 50px 0;
-        }
-        .pag5 img.seta {
-            position: relative;
-            width: 10%;
-            bottom: -98%;
-            transform: translateY(-100%);
-        }
-    </style>
-
-    <!-- Stylos Pagina 6 -->
-    <style>
-        .pag6 .preencher{
-            margin-top: 20px;
-        }
-        .pag6 .campotxt img{
-            margin-top: 150px;
-        }
-        .pag6 .titulo{
-            margin-bottom: 50px;
-        }
-        .pag6 input {
-            position: absolute;
-            width: 75%;
-            height: 22%;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 40px;
-        }
-        .pag6 input.nome{
-            top: 32px;
-        }
-        .pag6 input.telefone{
-            top: 183px;
-        }
-        .pag6 input.email{
-            top: 332px;
-        }
-        .pag6 input.msg {
-            top: 177px;
-            height: 65%;
-        }
-        .pag6 textarea {
-            width: 74%;
-            height: 64%;
-            margin-top: 18%;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        input[type="image"] {
-            width: 20%;
-            height: 5%;
-            margin-top: 5px;
-            position: relative;
-            left: 37%;
-        }
-    </style>
-
-    <script>
-        function aparecer(){
-            
-            divs = document.getElementById('txts1').getElementsByTagName('div')
-            i = 0
-            fim = divs.length
-            console.log(fim)
-
-            var intervalo = setInterval(function(){
-                if(i >= (fim-1)){
-                    subir()
-                    clearInterval(intervalo)
-                    mexerseta()
-                }
-                else{
-                    subir()
-                }
-                i = i + 1
-            },500)
-
-            function subir(){
-                px = 80
-                    op = 0
-                    var intervalo2 = setInterval(function(){
-                        px = px - 5
-                        op = op +0.15
-                        divs[i-1].style.marginTop = px+"px" 
-                        divs[i-1].style.opacity = op
-                        if(px <= 40){
-                            divs[i-1].style.marginTop = "40px" 
-                            divs[i-1].style.opacity = 1
-                            clearInterval(intervalo2)
-                        }
-                    },80)
-            }
-            
-        }
-        function mexerseta(){
-                var posseta = 0
-                var seta = document.getElementById('seta').style.marginTop
-                setInterval(function(){
-                    if(posseta > 10){
-                        posseta = 0
-                    }
-                    document.getElementById('seta').style.marginTop = posseta+"px"
-                    posseta = posseta + 2
-
-                },100)
-            }
-    </script>
-
     <body>
         <div class="conteiner-fluid text-center">
             <div class="row">
@@ -334,7 +80,7 @@
                     
                     <!-- PAGINA 1 -->
 
-                    <div class="pag1" id="pag1">
+                    <div class="pag1 pag" id="pag1">
 
                         <div id="fundo">
                             <img src="Pag 01/fundo.png" alt="">
@@ -393,7 +139,7 @@
 
                     <!-- PAGINA 2 -->
 
-                    <div class="pag2" id="pag2">
+                    <div class="pag2 pag" id="pag2">
 
                         <div id="fundo">
                             <img src="Pag 02/fundo.png" alt="">
@@ -404,33 +150,32 @@
                             <div class="campoicone campoalter">
                                 <img src="Pag 02/circulo.png" alt="" class="circle">
                             </div>
-                            
-                            <section class="col-lg-6 col-sm-12 col-md-12 bloco">
-    
-                                <div class="campotxt">
-                                    <img src="Pag 02/txt1.png" alt="" class="txt1 sobrepor">
-                                </div>
-                                
-                                <div class="campotxt">
-                                    <img src="Pag 02/txt2.png" alt="" class="txt2 sobrepor">
-                                </div>
-    
-                            </section>
-    
-                            <section class="col-lg-6 col-sm-12 col-md-12 bloco">
 
-                                <div class="campotxt">
-                                    <img src="Pag 02/txt3.png" alt="" class="txt3 sobrepor">
-                                </div>
+                            <div id="txts2">
+                                <section class="col-lg-6 col-sm-12 col-md-12 bloco">
+        
+                                    <div class="campotxt">
+                                        <img src="Pag 02/txt1.png" alt="" class="txt1 sobrepor">
+                                    </div>
+                                    
+                                    <div class="campotxt">
+                                        <img src="Pag 02/txt2.png" alt="" class="txt2 sobrepor">
+                                    </div>
+        
+                                </section>
+        
+                                <section class="col-lg-6 col-sm-12 col-md-12 bloco">
     
-                                <div class="campotxt">
-                                    <img src="Pag 02/txt4.png" alt="" class="txt4 sobrepor">
-                                </div>
-    
-                            </section>
+                                    <div class="campotxt">
+                                        <img src="Pag 02/txt3.png" alt="" class="txt3 sobrepor">
+                                    </div>
+        
+                                    <div class="campotxt">
+                                        <img src="Pag 02/txt4.png" alt="" class="txt4 sobrepor">
+                                    </div>
+        
+                                </section>
 
-                            <div class="campoapertodemao">
-                                <img src="Pag 02/apertoDeMao.png" alt="" class="apertoDeMao">
                             </div>
 
                         </div>
@@ -439,7 +184,7 @@
 
                     <!-- PAGINA 3 -->
 
-                    <div class="pag3" id="pag3">
+                    <div class="pag3 pag" id="pag3">
 
                         <div id="fundo">
                             <img src="Pag 03/fundo.png" alt="">
@@ -450,30 +195,34 @@
                         </div>
                         
                         <div class="corpo">
-                            
-                            <section class="col-lg-6 col-sm-12 col-md-12 bloco">
-    
-                                <div class="campotxt">
-                                    <img src="Pag 03/txt1.png" alt="" class="txt1 sobrepor">
-                                </div>
-                                
-                                <div class="campotxt">
-                                    <img src="Pag 03/txt2.png" alt="" class="txt2 sobrepor">
-                                </div>
-    
-                            </section>
-    
-                            <section class="col-lg-6 col-sm-12 col-md-12 bloco">
 
-                                <div class="campotxt">
-                                    <img src="Pag 03/txt3.png" alt="" class="txt3 sobrepor">
-                                </div>
+                            <div id="txts3">
+                                <section class="col-lg-6 col-sm-12 col-md-12 bloco">
+        
+                                    <div class="campotxt">
+                                        <img src="Pag 03/txt1.png" alt="" class="txt1 sobrepor">
+                                    </div>
+                                    
+                                    <div class="campotxt">
+                                        <img src="Pag 03/txt2.png" alt="" class="txt2 sobrepor">
+                                    </div>
+        
+                                </section>
+        
+                                <section class="col-lg-6 col-sm-12 col-md-12 bloco">
     
-                                <div class="campotxt">
-                                    <img src="Pag 03/txt4.png" alt="" class="txt4 sobrepor">
-                                </div>
-    
-                            </section>
+                                    <div class="campotxt">
+                                        <img src="Pag 03/txt3.png" alt="" class="txt3 sobrepor">
+                                    </div>
+        
+                                    <div class="campotxt">
+                                        <img src="Pag 03/txt4.png" alt="" class="txt4 sobrepor">
+                                    </div>
+        
+                                </section>
+                                
+                            </div>
+                            
                             
                             <div class="campotxtfinal">
                                 <img src="Pag 03/txt5.png" alt="" class="txt4 sobrepor">
@@ -485,7 +234,7 @@
 
                     <!-- PAGINA 4 -->
 
-                    <div class="pag4" id="pag4">
+                    <div class="pag4 pag" id="pag4">
 
                         <div id="fundo">
                             <img src="Pag 04/fundo.png" alt="">
@@ -494,33 +243,37 @@
                         
                         <div class="corpo">
 
-                            <div class="campotxt">
-                                <img src="Pag 04/txt1.png" alt="" class="txt1 sobrepor titulo">
+                            <div id="txts4">
+
+                                <div class="campoimg">
+                                    <img src="Pag 04/txt1.png" alt="" class="txt1 sobrepor titulo">
+                                </div>
+                                
+                                <section class="col-lg-4 col-sm-12 col-md-12 bloco">
+        
+                                    <div class="campoimg">
+                                        <img src="Pag 04/txt2.png" alt="" class="txt2 sobrepor">
+                                    </div>
+        
+                                </section>
+                                
+                                <section class="col-lg-4 col-sm-12 col-md-12 bloco">
+        
+                                    <div class="campoimg">
+                                        <img src="Pag 04/txt3.png" alt="" class="txt3 sobrepor">
+                                    </div>
+        
+                                </section>
+                                
+                                <section class="col-lg-4 col-sm-12 col-md-12 bloco">
+        
+                                    <div class="campoimg">
+                                        <img src="Pag 04/txt4.png" alt="" class="txt4 sobrepor">
+                                    </div>
+        
+                                </section>
+
                             </div>
-                            
-                            <section class="col-lg-4 col-sm-12 col-md-12 bloco">
-    
-                                <div class="campotxt">
-                                    <img src="Pag 04/txt2.png" alt="" class="txt2 sobrepor">
-                                </div>
-    
-                            </section>
-                            
-                            <section class="col-lg-4 col-sm-12 col-md-12 bloco">
-    
-                                <div class="campotxt">
-                                    <img src="Pag 04/txt3.png" alt="" class="txt3 sobrepor">
-                                </div>
-    
-                            </section>
-                            
-                            <section class="col-lg-4 col-sm-12 col-md-12 bloco">
-    
-                                <div class="campotxt">
-                                    <img src="Pag 04/txt4.png" alt="" class="txt4 sobrepor">
-                                </div>
-    
-                            </section>
 
                             <img src="Pag 04/cora1.png" alt="" class="cora1">
                             <img src="Pag 04/cora2.png" alt="" class="cora2">
@@ -533,7 +286,7 @@
 
                     <!-- PAGINA 5 -->
 
-                    <div class="pag5" id="pag5">
+                    <div class="pag5 pag" id="pag5">
 
                         <div id="fundo">
                             <img src="Pag 05/fundo.png" alt="">
@@ -542,12 +295,34 @@
                         
                         <div class="corpo">
 
-                            <div class="campotxt">
-                                <img src="Pag 05/txt1.png" alt="" class="txt1 sobrepor titulo">
+                            <div id="txts5">
+
+                                <div class="campoimg">
+                                    <img src="Pag 05/txt1.png" alt="" class="txt1 sobrepor titulo">
+                                </div>
+                                
                             </div>
 
-                            <div id="slides" class="slides">
-                                <img src="mao.png" alt="">
+
+                            <div id="items-wrapper" class="slider">
+                                <div id="items">
+                                    <img class="item" src="slide/1.jpeg" alt="">
+                                    <img class="item" src="slide/2.jpeg" alt="">
+                                    <img class="item" src="slide/3.jpeg" alt="">
+                                    <img class="item" src="slide/4.jpeg" alt="">
+                                    <img class="item" src="slide/5.jpeg" alt="">
+                                    <img class="item" src="slide/6.jpeg" alt="">
+                                    <img class="item" src="slide/7.jpeg" alt="">
+                                    <img class="item" src="slide/8.jpeg" alt="">
+                                    <img class="item" src="slide/9.jpeg" alt="">
+                                    <img class="item" src="slide/10.jpeg" alt="">
+                                    <img class="item" src="slide/11.jpeg" alt="">
+                                    <img class="item" src="slide/12.jpeg" alt="">
+                                    <img class="item" src="slide/13.jpeg" alt="">
+                                    <img class="item" src="slide/14.jpeg" alt="">
+                                    <img class="item" src="slide/15.jpeg" alt="">
+                                    <img class="item" src="slide/16.jpeg" alt="">
+                                </div>
                             </div>
                             
                             <section class="col-lg-4 col-sm-12 col-md-12 bloco">
@@ -560,20 +335,23 @@
                             
                             <section class="col-lg-4 col-sm-12 col-md-12 bloco">
     
-                                <div class="campotxt">
+                                <div class="campoimg">
                                     <img src="Pag 05/txt3.png" alt="" class="txt3 sobrepor">
                                 </div>
     
                             </section>
                             
-                            <div class="campoalter">
-                                <img src="Pag 05/seta.png" alt="" class="seta">
-                            </div>
+                            <section class="col-lg-4 col-sm-12 col-md-12 bloco">
+    
+                                <div class="campoimg">
+                                    <img src="Pag 05/seta.png" alt="" class="seta">
+                                </div>
+                            </section>
+                            
 
-                            <img src="Pag 05/cora1.png" alt="" class="cora1">
-                            <img src="Pag 05/cora2.png" alt="" class="cora2">
-                            <img src="Pag 05/cora2.png" alt="" class="cora3">
-                            <img src="Pag 05/cora2.png" alt="" class="cora4">
+                            <img src="Pag 04/cora1.png" alt="" class="cora1">
+                            <img src="Pag 04/cora2.png" alt="" class="cora2">
+                            <img src="Pag 04/cora2.png" alt="" class="cora3">
 
                         </div>
                 
@@ -581,7 +359,7 @@
 
                     <!-- PAGINA 6 -->
 
-                    <div class="pag6" id="pag6">
+                    <div class="pag6 pag" id="pag6">
 
                         <div id="fundo">
                             <img src="Pag 06/fundo.png" alt="">
@@ -589,7 +367,7 @@
                         <form action="">
                             <div class="corpo">
     
-                                <div class="campotxt titulo">
+                                <div class="campoimg titulo">
                                     <img src="Pag 06/txt1.png" alt="" class="txt1 sobrepor titulo">
                                 </div>
                                 
@@ -613,7 +391,7 @@
                                 
                                 <section class="col-lg-4 col-sm-12 col-md-12 bloco">
 
-                                    <div class="campotxt">
+                                    <div class="campoimg">
                                         <img src="Pag 06/txt5.png" alt="" class="txt3 sobrepor">
                                         <textarea name="msg" id="" cols="30" rows="10"></textarea>
                                     </div>
@@ -622,12 +400,16 @@
 
                                 <input type="image" src="pag 06/button.png">
                                 
-                                <div class="campotxt sub titulo">
+                                <div class="sub titulo">
                                     <img src="Pag 06/txt6.png" alt="" class="txt6 sobrepor">
                                 </div>
                                 
                                 <div class="">
                                     <img src="Pag 06/txt7.png" alt="" class="txt7 sobrepor">
+                                </div>
+
+                                <div class="">
+                                    <img src="Pag 06/logo_fim.png" alt="" class="seta">
                                 </div>
     
                             </div>
@@ -641,7 +423,10 @@
         
     </body>
     <script>
-        window.onload = aparecer()
-
+        lista = []
+        pags = document.querySelectorAll('div.pag')
+        lista = toArray(pags)
+        
+        
     </script>
 </html>
