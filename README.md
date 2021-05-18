@@ -13,7 +13,7 @@
 </p>
 
 <h1 id="objetivo">Objetivo</h1>
- <p>Temos como objetivo colaborar para o crescimento e compremssão de todo trabalho que possa ser redundante ou extenso.</p>
+ <p>Temos como objetivo colaborar para o crescimento e compressão de todo trabalho que possa ser redundante ou extenso.</p>
 
 <h1 id="tecnologias">Tecnologias</h1>
  <p>Ultilizamos Html, PHP, Javascript, Python e o Designer grafico como ferramenta para nossas soluções.</p>
