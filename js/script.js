@@ -4,7 +4,7 @@ intervalofinal = setInterval(function(){
 
 setTimeout(function(){
     clearInterval(intervalofinal)
-},15000)
+},40000)
 
 //Converter objeto em array
 function toArray(lista){
