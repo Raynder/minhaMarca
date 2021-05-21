@@ -7,6 +7,7 @@
     use PHPMailer\PHPMailer\Exception;
 ?>
 <!DOCTYPE html>
+
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
@@ -19,19 +20,99 @@
         <link rel="stylesheet" href="css/pag5.css">
         <link rel="stylesheet" href="css/pag6.css">
 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+
         <script src="js/script.js" type="text/javascript"></script>
     </head>
     
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-md-12 text-center" style="padding: 0;">
+                    
+                    <div id="pag1" class="pag1">
+                    
+                        <div id="fundo" class="fundo">
+                            <img src="Pag 01/fundo.png" alt="">
+                        </div>
+            
+                        <div class="conteudo">
+                        
+                            <div class="logo center">
+                                <img src="Pag 01/logo.png" class="logo" alt="logo principal">
+                            </div>
+
+                            <div class="boasVindas">
+                                <h1 class="">BEM-VINDO!</h1>
+                            </div>
+
+                            <section class="bloco col-lg-6 col-md-12 col-sm-6 col-6">
+
+                                <div class="">
+                                    <h1>Somos a agência Alpha Marketing</h1>
+                                </div>
     
+                                <div class="">
+                                    <p>O Marketing Digital está sempre evoluindo,
+                                         cada dia que passa novas estrategias estão sendo criadas ou testadas
+                                         , nos da Alpha estamos sempre acompanhando esta evolução por você.
+                                    </p>
+                                </div>
+                            
+                            </section>
+
+                            
+
+                            <section class="bloco col-lg-6 col-md-12 col-sm-6 col-6">
+
+                                <div class="">
+                                    <h2>NOSSO TRABALHO NÃO SE RESUME</h2>
+                                    <h1 class="h2menor">APÉNAS NO MARKETING</h1>
+                                </div>
+
+    
+                                <div class="">
+                                    <p>O design também é algo que precisa ser cuidadosamente bem feito,
+                                         e nós estamos sempre buscando aperfeiçoar nossos metodos
+                                          para que seu resultado se torne cada vez melhor.
+                                    </p>
+                                </div>
+                            
+                            </section>
+
+
+
+                            
+                        
+                        </div>
+                    
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        
+
+
+    </body>
+
+
+
+
     <script>
         lista = []
         pags = document.querySelectorAll('div.pag')
         lista = toArray(pags)
-        
-        
     </script>
 </html>
+
 <?php
+
     if(isset($_POST['nome']) && isset($_POST['msg'])){
         if(isset($_POST['email']) || isset($_POST['telefone'])){
 

@@ -1,0 +1,109 @@
+*, body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.center, .conteudo h1, .conteudo h2, .conteudo p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pag1 .fundo{
+    position: absolute;
+    height: 100vh;   
+    width: 100%; 
+}
+.pag1 .fundo img{
+    height: 100%;
+    width: 100%;
+}
+
+.pag1 .conteudo{
+    position: absolute;
+    width: 100%;
+}
+.pag1 .conteudo .logo {
+    position: relative;
+    margin-top: 2%;
+    width: 200px;
+}
+
+.pag1 .conteudo .boasVindas h1{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #fff;
+    color: #fff0;
+    margin-top: 10%;
+}
+
+.pag1 .conteudo h1, p, h2{
+    width: 80%;
+    color: #fff;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.pag1 .conteudo h1 {
+    font-size: 62pt;
+}
+
+.pag1 .conteudo p {
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+.pag1 .conteudo h2 {
+    font-size: 30pt;
+    font-weight: 670;
+}
+
+.pag1 .conteudo .h2menor {
+    font-size: 42pt;
+    font-weight: 800;
+}
+
+section.bloco {
+    float: left;
+    margin-top: 8%;
+}
+
+@media (max-width: 800px) {
+    .pag1 .conteudo .boasVindas h1{
+        -webkit-text-stroke-width: 1px;
+        margin-top: 1%;
+    }
+    
+    .pag1 .conteudo h1, p, h2{
+        font-weight: 800;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .pag1 .conteudo .logo {
+        width: 15px;
+    }
+    .pag1 .conteudo h1 {
+        font-size: 10pt;
+    }
+
+    .pag1 .conteudo p {
+        font-size: 3pt;
+        font-weight: 600;
+    }
+    
+    .pag1 .conteudo h2 {
+        font-size: 5pt;
+    }
+    
+    .pag1 .conteudo .h2menor {
+        font-size: 7pt;
+        font-weight: 800;
+    }
+
+    section.bloco {
+        margin-top: 10px;
+        padding: 0;
+    }
+    section.bloco div{
+        margin-bottom: 10px;
+    }
+}
