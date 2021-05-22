@@ -93,13 +93,24 @@
                                 <img src="Pag 01/seta.png" class="seta" alt="Seta apontando para baixo">
                             </div>
 
-                            
+                            <div class="triangulo">
+                                <img src="Pag 01/triangulo.png" alt="">
+                            </div>
                         
                         </div>
                     
                     </div>
 
+                    <div id="pag2" class="pag2">
 
+                        <div class="conteudo">
+
+                            <div class="circulo">
+                                <img src="Pag 02/circulo.png" alt="">
+                            </div>
+                        
+                        </div>
+                    </div>
 
 
 

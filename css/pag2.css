@@ -1,0 +1,11 @@
+.pag2 .conteudo .circulo {
+    position: relative;
+    top: 100vh;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 700px) {
+    .pag2 .conteudo .circulo img{
+        width: 50px;
+    }    
+}
