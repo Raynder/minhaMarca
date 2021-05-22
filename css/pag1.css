@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+/*DISTRIBUIÇÃO DOS BLOCOS NA TELA*/
+
+.pag1 .conteudo .icone{
+    height: 20vh; /*Este icone se refere tanto a logo quanto a seta*/
+}
+.pag1 .conteudo .boasVindas{
+    height: 10vh;
+}
+section.bloco {
+    float: left;
+    height: 25vh;/*Este são os blocos com textos*/
+}
+/*FIM DESSA DISTRIBUIÇÃO*/
+
 .center, .conteudo h1, .conteudo h2, .conteudo p{
     margin-left: auto;
     margin-right: auto;
@@ -22,17 +36,18 @@
     position: absolute;
     width: 100%;
 }
-.pag1 .conteudo .logo {
-    position: relative;
-    margin-top: 2%;
-    width: 200px;
+
+.pag1 .conteudo .icone .logo {
+    height: 80%;
+}
+.pag1 .conteudo .icone .seta {
+    height: 50%;
 }
 
 .pag1 .conteudo .boasVindas h1{
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #fff;
     color: #fff0;
-    margin-top: 10%;
 }
 
 .pag1 .conteudo h1, p, h2{
@@ -47,7 +62,7 @@
 }
 
 .pag1 .conteudo p {
-    font-size: 20pt;
+    font-size: 25pt;
     font-weight: 600;
 }
 
@@ -61,26 +76,42 @@
     font-weight: 800;
 }
 
-section.bloco {
-    float: left;
-    margin-top: 8%;
+.pag1 .conteudo .alinhado{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-@media (max-width: 800px) {
+.pag1 .conteudo .bloco{
+    position: relative;
+}
+
+.pag1 .conteudo .text {
+    margin-bottom: 2vh;
+}
+
+@media (max-width: 600px) {
+
+    .pag1 .conteudo .text {
+        margin-bottom: 5vh;
+    }
+    
+}
+
+
+@media (max-width: 700px) {
+    .pag1 .conteudo .boasVindas{
+        
+    }
     .pag1 .conteudo .boasVindas h1{
         -webkit-text-stroke-width: 1px;
-        margin-top: 1%;
     }
     
     .pag1 .conteudo h1, p, h2{
         font-weight: 800;
-        margin-top: 0;
-        margin-bottom: 0;
+        width: 90%;
     }
     
-    .pag1 .conteudo .logo {
-        width: 15px;
-    }
     .pag1 .conteudo h1 {
         font-size: 10pt;
     }
@@ -100,10 +131,9 @@ section.bloco {
     }
 
     section.bloco {
-        margin-top: 10px;
         padding: 0;
+        height: 50vh;
     }
     section.bloco div{
-        margin-bottom: 10px;
     }
 }

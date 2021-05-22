@@ -39,25 +39,29 @@
             
                         <div class="conteudo">
                         
-                            <div class="logo center">
-                                <img src="Pag 01/logo.png" class="logo" alt="logo principal">
+                            <div class="icone center">
+                                <img src="Pag 01/logo.png" class="logo alinhado" alt="logo principal">
                             </div>
 
                             <div class="boasVindas">
-                                <h1 class="">BEM-VINDO!</h1>
+                                <h1 class="alinhado">BEM-VINDO!</h1>
                             </div>
 
                             <section class="bloco col-lg-6 col-md-12 col-sm-6 col-6">
 
-                                <div class="">
-                                    <h1>Somos a agência Alpha Marketing</h1>
-                                </div>
-    
-                                <div class="">
-                                    <p>O Marketing Digital está sempre evoluindo,
-                                         cada dia que passa novas estrategias estão sendo criadas ou testadas
-                                         , nos da Alpha estamos sempre acompanhando esta evolução por você.
-                                    </p>
+                                <div class="alinhado">
+
+                                    <div class="text">
+                                        <h1>Somos a agência Alpha Marketing</h1>
+                                    </div>
+        
+                                    <div class="text">
+                                        <p>O Marketing Digital está sempre evoluindo,
+                                             cada dia que passa novas estrategias estão sendo criadas ou testadas
+                                             , nos da Alpha estamos sempre acompanhando esta evolução por você.
+                                        </p>
+                                    </div>
+
                                 </div>
                             
                             </section>
@@ -66,22 +70,28 @@
 
                             <section class="bloco col-lg-6 col-md-12 col-sm-6 col-6">
 
-                                <div class="">
-                                    <h2>NOSSO TRABALHO NÃO SE RESUME</h2>
-                                    <h1 class="h2menor">APÉNAS NO MARKETING</h1>
-                                </div>
+                                <div class="alinhado">
 
+                                    <div class="text">
+                                        <h2>NOSSO TRABALHO NÃO SE RESUME</h2>
+                                        <h1 class="h2menor">APÉNAS NO MARKETING</h1>
+                                    </div>
     
-                                <div class="">
-                                    <p>O design também é algo que precisa ser cuidadosamente bem feito,
-                                         e nós estamos sempre buscando aperfeiçoar nossos metodos
-                                          para que seu resultado se torne cada vez melhor.
-                                    </p>
+        
+                                    <div class="text">
+                                        <p>O design também é algo que precisa ser cuidadosamente bem feito,
+                                             e nós estamos sempre buscando aperfeiçoar nossos metodos
+                                              para que seu resultado se torne cada vez melhor.
+                                        </p>
+                                    </div>
+
                                 </div>
                             
                             </section>
 
-
+                            <div class="icone center">
+                                <img src="Pag 01/seta.png" class="seta" alt="Seta apontando para baixo">
+                            </div>
 
                             
                         
