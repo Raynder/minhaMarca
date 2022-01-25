@@ -9,9 +9,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        
         <meta charset="utf-8">
         <title>Alpha MKT</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
         <script src="js/script.js" type="text/javascript"></script>
     </head>
@@ -19,11 +21,39 @@
     <body>
         <div class="conteiner-fluid text-center">
             <div class="row">
+                <div class="conteudo">
+                    <div class="parte1">
+                        <div class="titulo">
+                            <h1>Rafa Bot</h1>
+                        </div>
+
+                        <div class="info">
+                            <div class="bot-icon">
+                                <img src="img/bot.png" alt="">
+                            </div>
+                            <div class="bot-info">
+                                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                </div>
 
             </div>
         </div>
         
     </body>
+
+    <style>
+        .parte > .titulo {
+            font-size: 32pt;
+            color: white;
+            -webkit-text-stroke-color: #3364a1;
+            -webkit-text-stroke-width: 2px;
+        }
+    </style>
 </html>
 <?php
     if(isset($_POST['nome']) && isset($_POST['msg'])){
